@@ -5,7 +5,11 @@ var Header = Backbone.View.extend({
   },
   render: function(){
     
-    var template_main_str = '<span>Header</span>';
+    var template_main_str = '<div> \
+      <div class="site_graphic"></div> \
+      <div class="site_headline">Headline</div> \
+      <div class="site_byline">Byline</div> \
+    </div>';
     
     this.$el.html(_.template(template_main_str));
     
