@@ -1,5 +1,7 @@
 var HomeView = Backbone.View.extend({
   
+  className: 'vertical-scroll-panel',
+  
   initialize: function(){
     this.render();
   },
