@@ -67,11 +67,13 @@ body {
 
 .site_graphic {
   float:left;
-  margin-top:12px;
+  margin-top:11px;
   margin-left:16%;
-  height:100px;
-  width:100px;
-  background-color:#e6e6e6;
+  height:102px;
+  width:102px;
+  background-color:#3e5050;
+  position: relative;
+  border:3px solid #2e4040;
 }
 
 .text_block {
@@ -163,3 +165,8 @@ body {
 .start_hidden {
   display: none;
 }
+
+.puzzle_piece {
+  position:absolute;
+}
+

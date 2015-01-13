@@ -13,7 +13,6 @@ var AppView = Backbone.View.extend({
   },
   
   render: function(){
-    // adjust main content window css
     var available_height = $(window).height() - $('#header').outerHeight() - $('#menubar').outerHeight();
     var vertical_offset = $('#header').outerHeight() + $('#menubar').outerHeight()
     $('#main_content, #content_wrapper, .marginal, .deco, .vertical-scroll-panel').css({
@@ -33,8 +32,6 @@ var AppView = Backbone.View.extend({
     $('#left_decostrip').css("left", marginal_width + 'px');
     $('#right_decostrip').css("right", marginal_width + 'px');
     $('#main_content').css("left", (marginal_width + $('#left_decostrip').outerWidth()) + 'px');
-    
-    
   }
   
 });
